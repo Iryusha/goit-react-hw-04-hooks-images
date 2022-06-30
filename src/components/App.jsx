@@ -1,3 +1,4 @@
+// import React, { Component } from 'react';
 import { ToastContainer } from 'react-toastify';
 import s from './App.module.css';
 import 'react-toastify/dist/ReactToastify.min.css';
@@ -10,7 +11,7 @@ import Button from './Button/Button';
 ///////////////////////////////////////////////
 import { useState, useEffect } from 'react';
 
-export const App = () => {
+const App = () => {
   const [query, setQuery] = useState(null);
   const [page, setPage] = useState(1);
   const [pictures, setPictures] = useState([]);
