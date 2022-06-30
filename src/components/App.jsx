@@ -10,7 +10,7 @@ import Button from './Button/Button';
 ///////////////////////////////////////////////
 import { useState, useEffect } from 'react';
 
-const App = () => {
+export const App = () => {
   const [query, setQuery] = useState(null);
   const [page, setPage] = useState(1);
   const [pictures, setPictures] = useState([]);
